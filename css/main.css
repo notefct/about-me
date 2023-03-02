@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url(/image/background.png);
+
+    color: white;
+}
+/**/
+
+h1,h2 {
+    font-family: 'Rubik', sans-serif;
+}
+/**/
+
+/*header*/
+header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.header_flex {
+    font-family: 'Rubik', sans-serif;
+}
+.header_img {
+    border: 2px solid black;
+    border-radius: 96px;
+}
+/**/
+
+/*main*/
+main {
+    text-align: center;
+}
+
+#div1main_flex {
+    display: flex;
+    margin: 15px;
+
+    font-family: 'Inconsolata', monospace;
+    font-size: 25px;
+    text-align: center;
+}
+
+#h3main_flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.divh3main_flex {
+    width: 50%;
+
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+}
+/**/

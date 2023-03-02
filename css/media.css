@@ -1,0 +1,19 @@
+@media (max-width: 600px) {
+    /*header*/
+    header {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    /**/
+
+    /*main*/
+    #h3main_flex {
+        flex-wrap: wrap;
+    }
+    /**/
+}
+@media (min-width: 0px) {
+    body {
+        background-size: auto;
+    }
+}

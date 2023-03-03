@@ -26,6 +26,36 @@ header {
     border: 2px solid black;
     border-radius: 96px;
 }
+
+#divh1header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+.socialmedia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+    height: 32px;
+
+    border: 2px solid black;
+    border-radius: 25px;
+
+    font-size: 18px;
+}
+.githublink {
+    color: white;
+    text-decoration: none;
+}
+.discorduser {
+    width: 135px;
+}
+.twitterlink {
+    color: white;
+    text-decoration: none;
+}
 /**/
 
 /*main*/

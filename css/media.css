@@ -1,10 +1,23 @@
 @media (max-width: 600px) {
+    body {
+        background-size: 675%;
+    }
+
     /*header*/
     header {
         text-align: center;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+    }
+    #divh1header {
+        margin-top: 15px;
+        margin-bottom: -15px;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .discorduser {
+        order: 1;
     }
     /**/
 
@@ -13,9 +26,4 @@
         flex-wrap: wrap;
     }
     /**/
-}
-@media (min-width: 0px) {
-    body {
-        background-size: auto;
-    }
 }
